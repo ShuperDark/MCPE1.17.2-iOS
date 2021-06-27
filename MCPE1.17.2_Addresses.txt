@@ -1,0 +1,386 @@
+GuiData::GuiData(IClientInstance&)
+0x10031ee38
+GuiData::tick()
+0x10031f420
+GuiData::_tickItemDrop()
+0x10031f5f0
+GuiData::showPopupNotice(ItemStackBase const&)
+0x10031f878
+GuiData::_tickDelayedMessages()
+0x10031fa2c
+GuiData::getNumSlots() const
+0x10031fbf4
+GuiData::_addMessage(GuiMessage const&, ProfanityFilterContext)
+0x10031fbfc
+GuiData::isMuteChat() const
+0x10031fffc
+GuiMessage::getTTSMessage() const
+0x100320004
+GuiData::_addMessage(GuiMessage::MessageType, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, float, bool, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, ProfanityFilterContext)
+0x10032000c
+GuiData::clearPlayerMessages()
+0x100320c68
+GuiData::getDevConsoleScreenMessages()
+0x100320de4
+GuiData::getLastDevConsoleMessage()
+0x100320dec
+GuiData::displayDevConsoleMessage(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x100320df8
+GuiData::getLastContentLogMessage() const
+0x10032156c
+GuiData::displayClientMessage(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x100321588
+GuiData::displayChatMessage(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x100321760
+GuiData::setTextToSpeechEnabled(bool)
+0x100323844
+/*-----------------------------*/
+GuiMessage::GuiMessage(std::string const&, std::string const&, std::string const&, float, bool)
+0x100323b68
+/*-----------------------------*/
+Player::Player(Level&, PacketSender&, GameType, NetworkIdentifier const&, unsigned char, mce::UUID, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::unique_ptr<Certificate, std::__ndk1::default_delete<Certificate> >, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x10395c784
+Player::_registerPlayerAttributes()
+0x10395e41c
+Player::_registerElytraLoopSound()
+0x10395e850
+Player::initBodyControl()
+0x10395eebc
+Player::initializeComponents(Actor::InitializationMethod, VariantParameterList const&)
+0x10395ef04
+Player::getNewEnchantmentSeed()
+0x10395efe4
+Player::reloadHardcoded(Actor::InitializationMethod, VariantParameterList const&)
+0x10395f014
+Player::~Player()
+0x10395f058
+Player::~Player()
+0x10395f920
+Player::getClientId() const
+0x10395f928
+Player::getClientSubId() const
+0x10395f930
+Player::getCertificate() const
+0x10395f938
+Player::setFieldOfViewModifier(float)
+0x10395f940
+Player::is2DPositionRelevant(AutomaticID<Dimension, int>, BlockPos const&)
+0x10395f948
+Player::isEntityRelevant(Actor const&)
+0x10395f950
+Player::getMapDecorationRotation() const
+0x10395f958
+Player::actuallyHurt(int, ActorDamageSource const&, bool)
+0x10395f95c
+Player::teleportTo(Vec3 const&, bool, int, int, ActorUniqueID const&)
+0x10395f9d4
+Player::isLoading() const
+0x10395fb44
+Player::isPlayerInitialized() const
+0x10395fb4c
+Player::registerTrackedBoss(ActorUniqueID)
+0x10395fb54
+Player::unRegisterTrackedBoss(ActorUniqueID)
+0x10395fc5c
+Player::getTrackedBosses()
+0x10395fd2c
+Player::isCreative() const
+0x10395fd38
+Player::isSurvival() const
+0x10395fd90
+Player::forceAllowEating() const
+0x10395fe3c
+Player::isAdventure() const
+0x10395fe94
+Player::getSpeed() const
+0x10395fee8
+Player::getCapePos(float)
+0x10395ff0c
+Player::canBeSeenOnMap() const
+0x10395ff44
+Player::prepareRegion(ChunkSource&)
+0x103960100
+Player::moveSpawnView(Vec3 const&, AutomaticID<Dimension, int>)
+0x10396043c
+Player::getExpectedSpawnDimensionId() const
+0x1039606f4
+Player::destroyRegion()
+0x1039607b8
+Player::suspendRegion(void)
+0x103960844
+Player::resendAllChunks()
+0x10396089c
+Player::_fireWillChangeDimension(void)
+0x1039608A0
+Player::_fireDimensionChanged(void)
+0x103960900
+Player::changeDimensionWithCredits(AutomaticID<Dimension, int>)
+0x103960960
+Player::shouldShowCredits() const
+0x103960964
+Player::setHasSeenCredits(bool)
+0x103960974
+Player::isSleeping() const
+0x10396097c
+Player::setSleeping(bool)
+0x103960988
+Player::startSleepInBed(BlockPos const&)
+0x103960994
+Player::setBedRespawnPosition(BlockPos const&)
+0x103960fa0
+Player::stopSleepInBed(bool, bool)
+0x1039610ac
+Player::canStartSleepInBed()
+0x103961360
+Player::getSleepTimer() const
+0x10396138c
+Player::getPreviousTickSleepTimer() const
+0x103961394
+Player::setAllPlayersSleeping()
+0x10396139c
+Player::isSleepingLongEnough() const
+0x1039613ac
+Player::getSleepRotation() const
+0x1039613e4
+Player::getBedPosition() const
+0x1039614f8
+Player::checkBed(BlockSource*, Vec3 const*)
+0x103961508
+Player::checkSpawnBlock(BlockSource const&) const
+0x103961650
+Player::_preSpawnBuildSpawnDataCache()
+0x103961840
+Player::hasRespawnPosition() const
+0x103961acc
+Player::getPlatform() const
+0x103961b30
+Player::getPlatformOnlineId() const
+0x103961b38
+Player::setName(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x103961bf0
+Player::setPlatform(BuildPlatform)
+0x103961cfc
+Player::setPlatformOnlineId(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x103961d04
+Player::onSynchedDataUpdate(int)
+0x103961d0c
+Player::onMobStatusChanged(ActorUniqueID)
+0x103961d10
+Player::moveView()
+0x103961d28
+Player::getChunkRadius() const
+0x103961e48
+Player::isJumping() const
+0x103961e50
+Player::isEmoting() const
+0x103961ec0
+Player::getUnderwaterLightLevel() const
+0x103961ec8
+Player::setUnderwaterLightLevel(float)
+0x103961ed0
+Player::setSize(float, float)
+0x103961ed8
+Player::setUsedPotion(bool)
+0x103961eec
+Player::getUsedPotion()
+0x103961ef8
+Player::normalTick()
+0x103961f04
+Player::setEmotingStatus(bool)
+0x103962ad4
+Player::_applyExhaustion(Vec3 const&)
+0x103962ae0
+Player::stopUsingItem()
+0x103962e78
+Player::_updateInteraction()
+0x103962ee0
+Player::isBouncing() const
+0x103963438
+Player::resetOnScreenAnimationTicks()
+0x103963448
+Player::onBounceStarted(BlockPos const&, Block const&)
+0x103963454
+Player::getPlayerIndex() const
+0x10396346c
+Player::setPlayerIndex(int)
+0x103963478
+Player::isUsingItem() const
+0x1039634ec
+Player::isSlowedByItemUse() const
+0x103963508
+Player::getItemInUse() const
+0x10396354c
+Player::startUsingItem(ItemStack const&, int)
+0x103963554
+Player::releaseUsingItem()
+0x103963610
+Player::setSelectedItem(ItemStack const&)
+0x1039637d4
+Player::feed(int)
+0x1039637fc
+Player::completeUsingItem()
+0x103963880
+Player::getSelectedItem() const
+0x103963c70
+Player::useItem(ItemStackBase&, ItemUseMethod, bool)
+0x103963c9c
+Player::useSelectedItem(ItemUseMethod, bool)
+0x103963e08
+Player::getItemUseDuration()
+0x103963f6c
+Player::getItemUseStartupProgress()
+0x103963f74
+Player::getItemUseIntervalProgress()
+0x103963fec
+Player::getTicksUsingItem()
+0x103964044
+Player::isBlocking() const
+0x103964090
+Player::getCurrentActiveShield() const
+0x1039641b0
+Player::isDamageBlocked(ActorDamageSource const&) const
+0x103964264
+Player::move(IActorMovementProxy&, Vec3 const&) const
+0x1039643a0
+Player::_move(IPlayerMovementProxy&, Vec3 const&)
+0x1039643e8
+Player::move(Vec3 const&)
+0x103964418
+Player::travel(IMobMovementProxy&, float, float, float) const
+0x1039644e8
+Player::_travel(IPlayerMovementProxy&, float, float, float)
+0x103964538
+Player::travel(float, float, float)
+0x103964750
+Player::checkMovementStats(Vec3 const&)
+0x103964900
+Player::causeFoodExhaustion(float)
+0x103964904
+Player::handleJumpEffects()
+0x1039649b4
+Player::jumpFromGround()
+0x103964b8c
+Player::_jumpFromGround(IPlayerMovementProxy&)
+0x103964c94
+Player::jumpFromGround(IMobMovementProxy&) const
+0x103964d0c
+Player::goDownInWater(IActorMovementProxy&)
+0x103964d98
+Player::isImmobile() const
+0x103964dd0
+Player::deleteContainerManager()
+0x103964e10
+Player::setContainerManager(std::__ndk1::shared_ptr<IContainerManager>)
+0x103964e74
+Player::resetRot()
+0x103964ef0
+Player::resetPos(bool)
+0x103964ef4
+Player::updateAi()
+0x103965174
+Player::aiStep(IMobMovementProxy&) const
+0x103965178
+Player::_aiStep(IPlayerMovementProxy&)
+0x1039651bc
+Player::aiStep()
+0x1039657dc
+Player::updateTrackedBosses()
+0x10396588c
+Player::updateInventoryTransactions()
+0x103965bf0
+Player::isInCreativeMode() const
+0x103965fd8
+Player::canUseAbility(AbilitiesIndex) const
+0x10396602c
+Player::die(ActorDamageSource const&)
+0x10396609c
+Player::awardKillScore(Actor&, int)
+0x103966454
+Player::isShootable()
+0x103966464
+Player::isCreativeModeAllowed()
+0x10396646c
+Player::isInTrialMode()
+0x103966474
+Player::getAllHand() const
+0x10396647c
+Player::getAllEquipment() const
+0x103966710
+Player::add(ItemStack&)
+0x103966ae8
+////PlayerInventory::add(ItemStack&, bool)
+////0x103966afc
+Player::getDestroySpeed(Block const&) const
+0x103966b0c
+Player::getDestroyProgress(Block const&) const
+0x103966cfc
+Player::canDestroy(Block const&) const
+0x103966dd4
+Player::getCommandPermissionLevel() const
+0x103966e50
+Player::isOperator() const
+0x103966e5c
+Player::getPlayerPermissionLevel() const
+0x103966ea0
+Player::setPermissions(CommandPermissionLevel)
+0x103966eac
+Player::canUseOperatorBlocks() const
+0x103966eb8
+Player::readAdditionalSaveData(CompoundTag const&, DataLoadHelper&)
+0x103966f60
+////PlayerInventory::selectSlot(int, ContainerID)
+////0x10396920c
+Player::setPlayerUIItem(PlayerUISlot, ItemStack const&)
+0x103969254
+Player::addAdditionalSaveData(CompoundTag&)
+0x103969328
+/*-----------------------------*/
+DirtBlock::DirtBlock(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, int)	//VT0x105e15c30
+0x103ba1940
+DirtBlock::getVariant(Block const&) const
+0x103ba1994
+DirtBlock::getResourceItem(Random&, Block const&, int) const
+0x103ba1a2c
+DirtBlock::getSilkTouchItemInstance(Block const&) const
+0x103ba1a6c
+DirtBlock::onFertilized(BlockSource&, BlockPos const&, Actor*, FertilizerType) const
+0x103ba1aa8
+DirtBlock::mayConsumeFertilizer(BlockSource&) const
+0x103ba1ab4
+DirtBlock::canBeFertilized(BlockSource&, BlockPos const&, Block const&) const
+0x103ba1abc
+DirtBlock::buildDescriptionId(Block const&) const
+0x103ba1afc
+DirtBlock::tryToTill(BlockSource*, BlockPos*, Actor*, ItemStack*)
+0x103ba2030
+/*-----------------------------*/
+BlockLegacy::getColor(Block const&) const
+0x103ac5c3c
+BlockLegacy::getColor(BlockSource&, BlockPos const&, Block const&) const
+0x103ac5c44
+BlockLegacy::getColorAtPos(BlockSource&, BlockPos const&) const
+0x103ac5c4c
+BlockLegacy::getColorForParticle(BlockSource&, BlockPos const&, Block const&) const
+0x103ac5c54
+BlockLegacy::getMapColor() const
+0x103ac8c44
+BlockLegacy::getMapColor(BlockSource&, BlockPos const&) const
+0x103ac8c58
+/*-----------------------------*/
+I18n::get(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > > const&)
+0x102df4cf8
+I18n::get(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+0x102df4f60
+/*-----------------------------*/
+Common::getGameVersionStringNet()
+0x1026726ac
+Common::getGameDevGitShaString()
+0x1026927ec
+Common::getGameVersionString()
+0x1026bcfac
+Common::getGameSemVerString()
+0x1026bd044
+Common::getGameDevInfoString()
+0x1026bd3a8
+Common::getBuildInfo()
+0x1026bd7f4
